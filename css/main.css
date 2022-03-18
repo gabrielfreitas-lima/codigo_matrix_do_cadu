@@ -4,19 +4,18 @@
 }
 
 body {
-  background-color: lavender;
+  background-color: lightskyblue;
 }
 
-.largura {
+.container {
   border-radius: 5%;
-  position: absolute;
-  top: 20vh;
-  left: 50vh;
+  margin: auto;
+  margin-top: 20vh;
   width: 50%;
   height: 20vh;
 }
 
-.largura .coluna-left {
+.container .coluna-left {
   float: left;
   position: relative;
   margin-top: 5px;
@@ -24,7 +23,8 @@ body {
   padding-bottom: 5px;
   width: 20%;
 }
-.coluna-right {
+
+.container .coluna-right {
   float: right;
   position: relative;
   margin-top: 5px;
@@ -32,27 +32,48 @@ body {
   padding-bottom: 5px;
   width: 20%;
 }
-.print {
-  background-color: lavenderblush;
+
+.cor-do-label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-left: 10px;
+  color: white;
+}
+
+.input {
+  background-color: lavender;
   border: whitesmoke;
-  border-radius: 20px;
+  border-radius: 10px;
+  padding-left: 5px;
+  font-size: 15px;
   width: 23vw;
   height: 6vh;
+  margin: 10px;
 }
-.print:focus {
-  background-color: lightcoral;
+
+.input:hover{
+  background-color: lightcyan ;
 }
-.largura .div-btn {
+
+.input:focus {
+  background-color: lightcyan;
+}
+
+.container .div-btn {
   float: right;
   margin-top: 15px;
 }
-.largura .div-btn .btn{
-  background-color: transparent;
-  border-color: white;
-  color: black;
-  width: 10vw;
+
+.container .div-btn .btn{
+  background-color: gray;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  width: 20vw;
   height: 3vh;
 }
-.largura .div-btn .btn:hover{
-  background-color: whitesmoke;
+
+.container .div-btn .btn:hover{
+  background-color: lightgray;
 }
