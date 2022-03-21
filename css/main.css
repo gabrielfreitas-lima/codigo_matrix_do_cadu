@@ -8,11 +8,10 @@ body {
 }
 
 .container {
-  border-radius: 5%;
   margin: auto;
   margin-top: 20vh;
   width: 50%;
-  height: 20vh;
+  height: 30vh;
 }
 
 .container .coluna-left {
@@ -33,9 +32,9 @@ body {
   width: 20%;
 }
 
-.cor-do-label{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
+.cor-do-label{  
+  font-size: 20px;
+  margin: auto;
   padding-left: 10px;
   color: white;
 }
@@ -45,39 +44,43 @@ body {
   border: whitesmoke;
   border-radius: 10px;
   transition-duration:0.4s;
-  padding-left: 5px;
+  padding-left: 10px;
   font-size: 15px;
   width: 23vw;
   height: 6vh;
   margin: 10px;
+  outline: none;
 }
 
 .input:hover{
-  background-color: lightcyan;
-  box-shadow: 0 8px 5px 0 rgba(0,0,0,0.24);
+  background-color: lightpink;
+  box-shadow: 0 10px 8px 0 rgba(0,0,0,0.10);
 }
 
 .input:focus {
-  background-color: lightcyan;
+  background-color: lightpink;
 }
 
 .container .div-btn {
   float: right;
-  margin-top: 15px;
+  margin:0%
 }
 
 .container .div-btn .btn{
   background-color: gray;
-  transition-duration:0.5s;
+  transition-duration:0.6s;
   border-radius: 5px;
   font-size: 17px;
+  text-align: center;
   border: none;
-  color: white;
+  color: lightpink;
   width: 20vw;
   height: 3vh;
 }
 
 .container .div-btn .btn:hover{
-  background-color: lightgray;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(to right, white, lightgray);
+  box-shadow: 0 10px 8px 0 rgba(0,0,0,0.15);
 }
